@@ -1,0 +1,34 @@
+    .link10 {
+        stroke: #ccc;
+        stroke-width: 3px;
+        stroke-dasharray: 3, 3;
+    }
+    .link1 {
+        stroke: #000;
+        stroke-width: 3px;
+    }
+    .nodetext {
+        pointer-events: none;
+        font: 10px sans-serif;
+    }
+    .node.type1 {
+        fill:brown;
+    }
+    .node.type2 {
+        fill:#337147;
+    }
+    .node.type3 {
+        fill:blue;
+    }
+    .node.type4 {
+        fill:red;
+    }
+    .node.type5 {
+        fill:#1BC9E0;
+    }
+    .node.type6 {
+        fill:#E01B98;
+    }
+    image.circle {
+        cursor:pointer;
+    }

@@ -1,0 +1,50 @@
+{
+  "points": [
+    {
+      "userA": {
+        "var": [
+          {
+            "id": "var/1",
+            "type": "var"
+          },
+          {
+            "id": "var/2",
+            "type": "var"
+          }
+        ]
+      }
+    },
+    {
+      "userB": {
+        "var": [
+          {
+            "id": "var/3",
+            "type": "var"
+          },
+          {
+            "id": "val/0",
+            "type": "val"
+          }
+        ]
+      }
+    }
+  ],
+  "edges": {
+    "dependency": [
+      {
+        "source": "var/1",
+        "target": "var/2"
+      },
+      {
+        "source": "var/2",
+        "target": "var/3"
+      }
+    ],
+    "varToVal": [
+      {
+        "source": "var/3",
+        "target": "val/0"
+      }
+    ]
+  }
+}

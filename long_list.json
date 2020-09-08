@@ -1,0 +1,152 @@
+{
+  "val": [
+    {
+      "id": "val/10",
+      "type": 0,
+      "creater": "UserA"
+    },
+    {
+      "id": "val/11",
+      "type": 0,
+      "creater": "UserA"
+    },
+    {
+      "id": "val/12",
+      "type": 0,
+      "creater": "UserA"
+    },
+    {
+      "id": "val/13",
+      "type": 0,
+      "creater": "UserA"
+    },
+    {
+      "id": "val/0",
+      "type": 0,
+      "creater": "UserA"
+    },
+    {
+      "id": "val/1",
+      "type": 1,
+      "creater": "UserB"
+    },
+    {
+      "id": "val/2",
+      "type": 2,
+      "creater": "UserC"
+    },
+    {
+      "id": "val/3",
+      "type": 0,
+      "creater": "UserA"
+    },
+    {
+      "id": "val/4",
+      "type": 1,
+      "creater": "UserB"
+    },
+    {
+      "id": "val/5",
+      "type": 2,
+      "creater": "UserC"
+    }
+  ],
+  "var": [
+    {
+      "id": "var/0",
+      "type": 0,
+      "creater": "UserA"
+    },
+    {
+      "id": "var/1",
+      "type": 1,
+      "creater": "UserB"
+    },
+    {
+      "id": "var/2",
+      "type": 2,
+      "creater": "UserC"
+    }
+  ],
+  "links": [
+    {
+      "source": "var/0",
+      "target": "val/3",
+      "type": 0
+    },
+    {
+      "source": "var/1",
+      "target": "val/4",
+      "type": 0
+    },
+    {
+      "source": "var/2",
+      "target": "val/5",
+      "type": 0
+    },
+    {
+      "source": "var/0",
+      "target": "val/0",
+      "type": 1
+    },
+    {
+      "source": "var/1",
+      "target": "val/1",
+      "type": 1
+    },
+    {
+      "source": "var/2",
+      "target": "val/2",
+      "type": 1
+    },
+    {
+      "source": "var/1",
+      "target": "var/0",
+      "type": 2
+    },
+    {
+      "source": "var/2",
+      "target": "val/1",
+      "type": 2
+    },
+    {
+      "source": "var/2",
+      "target": "val/0",
+      "type": 2
+    },
+    {
+      "source": "val/10",
+      "target": "val/11",
+      "type": 2
+    },
+    {
+      "source": "val/11",
+      "target": "val/12",
+      "type": 2
+    },
+    {
+      "source": "val/12",
+      "target": "val/13",
+      "type": 2
+    },
+        {
+      "source": "val/3",
+      "target": "val/10",
+      "type": 2
+    }
+  ],
+  "users": [
+    [
+      "UserA",
+      0
+    ],
+    [
+      "UserB",
+      1
+    ],
+    [
+      "UserC",
+      2
+    ]
+  ]
+}
