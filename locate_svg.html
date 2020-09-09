@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>locate_svg</title>
+    <style>
+        .container {
+            position: relative;
+        }
+
+        .topleft {
+            position: absolute;
+            top: 8px;
+            left: 16px;
+            font-size: 18px;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            opacity: 0.3;
+        }
+    </style>
+</head>
+
+<body>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+
+<!--<p>test</p>-->
+
+<!--<div class="container">-->
+<!--<div class="topleft">Top Left</div>-->
+<p>KGPL</p>
+<div class="ui-widget">
+    <input id="search" size='4'>
+    <button type="button" onclick="searchNode()">Find Node</button>
+</div>
+<!--</div>-->
+<p> </p>
+<svg width="600" height="400" style="border:1px solid black"
+     viewBox="-100 -100 500 500" preserveAspectRatio="xMinYMax meet"
+     id="graph"></svg>
+<script src="zoom_detail.js"></script>
+<!--</body>-->
+<svg width="350" height="150" style="position:relative;top:22px;"
+     viewBox="-100 -100 300 300" preserveAspectRatio="xMinYMax meet"
+     id="graph"></svg>
+
+
+</body>
+</html>

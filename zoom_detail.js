@@ -2,7 +2,7 @@ var svg = d3.select("svg");
 
 var width = svg.attr("width");
 var height = svg.attr("height");
-var margin = {top: 10, right: 10, bottom: 30, left: 10};
+// var margin = {top: 10, right: 10, bottom: 30, left: 10};
 
 
 var url_pre = "localhost:5000/";
@@ -139,9 +139,9 @@ function createGraph(error, graph) {
     var user_legends = svg_legend.selectAll("legend_line")
         .data(keys)
         .enter().append("text")
-        .attr("x", -width / 4)
+        .attr("x", 0)
         .attr("y", function (d, i) {
-            return i * 10
+            return i * 15
         }) // 100 is where the first dot appears. 25 is the distance between dots
         .style("fill", function (d) {
             return color(d[1])
@@ -149,7 +149,7 @@ function createGraph(error, graph) {
         .text(function (d) {
             return d[0]
         })
-        .style("font-size", "0.5em")
+        .style("font-size", "0.7em")
 
         .call(d3.drag()
             .subject(function () {
